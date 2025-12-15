@@ -4,6 +4,14 @@
 //let,var,const
 //three keywords to declare variables
 
+/*
+        console.log(messages) => display the output or messages into console
+ */
+
+//This is Alert Message ,it shows on your html webpage
+alert("This is a Exclusive Javascript course");
+
+
 var name1="Manoj";    //var keyword does not support scope and can be redeclare and reassign for same name
 let name2="Manoj";    //let is a improvement of var keyword
 const pi=3.14;      //const variable cannot be reassign and does not make changes
@@ -58,3 +66,32 @@ console.log(typeof isRainy);
 // string,numbers,boolean
 
 console.log(typeof 12.345);   //It is also a number data type,it is not a float data type.
+
+//we can print multiple value in same line,for example
+const number1=12;
+const number2=24;
+console.log(number1,number2);
+
+//Problems from Variables
+
+// 01 . declare a two numbers and add two numbers ,display it
+
+let num1=10;
+let num2=87;
+console.log(num1+num2);
+
+
+//02 . Swap the two variables
+
+let x = 12;
+let y = 21;
+console.log('Before Swapping : ' + x, y);
+let temp=x;
+x=y;
+y=temp;
+console.log("After Swapping : "+x,y);
+
+//03 . Find the Area of the circle
+
+let radius=2;
+console.log(pi*radius**2);

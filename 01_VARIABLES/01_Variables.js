@@ -11,6 +11,8 @@
 //This is Alert Message ,it shows on your html webpage
 alert("This is a Exclusive Javascript course");
 
+//This is warning message
+console.warn("Warning");
 
 var name1="Manoj";    //var keyword does not support scope and can be redeclare and reassign for same name
 let name2="Manoj";    //let is a improvement of var keyword
@@ -95,3 +97,4 @@ console.log("After Swapping : "+x,y);
 
 let radius=2;
 console.log(pi*radius**2);
+

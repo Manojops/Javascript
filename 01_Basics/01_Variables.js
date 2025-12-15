@@ -53,3 +53,8 @@ console.log(typeof name1);
 console.log(typeof fullName);
 console.log(typeof account_number_2);
 console.log(typeof isRainy);
+
+// In javascript,it is dynamic we cannot declare a data type of variable
+// string,numbers,boolean
+
+console.log(typeof 12.345);   //It is also a number data type,it is not a float data type

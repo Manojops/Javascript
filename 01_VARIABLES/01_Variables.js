@@ -14,6 +14,7 @@ alert("This is a Exclusive Javascript course");
 //This is warning message
 console.warn("Warning");
 
+
 var name1="Manoj";    //var keyword does not support scope and can be redeclare and reassign for same name
 let name2="Manoj";    //let is a improvement of var keyword
 const pi=3.14;      //const variable cannot be reassign and does not make changes
@@ -48,6 +49,20 @@ console.log("How are you "+name2+" ?");
 
  */
 
+// There are Two types of Data Types
+// 1 . Primitive Data Type
+// 2 . Reference Data Type
+
+// Primitive Data Type
+
+/*
+    1 . String
+    2 . Number
+    3 . Boolean
+    4 . Undefined
+    5 . null
+ */
+
 //Let us see Example
 
 let fullName="Mahendra singh Dhoni";  //here i can use camelcase ,meaningful name,dont use keywords
@@ -58,11 +73,19 @@ let account_number_2=89012341223;  //using underscore inplace of space
 //boolean value
 let isRainy=true;
 
+//Undefined
+let player;   //we cannot define any value to that variable
+
+//null
+let nullValue=null;
+
 //To check the type of the variables
 console.log(typeof name1);
 console.log(typeof fullName);
 console.log(typeof account_number_2);
 console.log(typeof isRainy);
+console.log(typeof player);
+console.log(typeof nullValue);
 
 // In javascript,it is dynamic we cannot declare a data type of variable
 // string,numbers,boolean
